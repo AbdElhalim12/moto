@@ -6,7 +6,7 @@
   }
 .text{
   width:340px;
-  height:217px;
+  height:200px;
   background:#FFF;
   opacity:0;
   float: left;
@@ -20,7 +20,7 @@
     font-weight:700;
     font-family:"Times New Roman", Times, serif;
     padding:30px;
-
+  height:217px;
     }
 .pics1{
       width:400px;
@@ -30,7 +30,7 @@
       }
 .text1{
       width:340px;
-      height:217px;
+      height:200px;
       background:#FFF;
       opacity:0;
     float: left;
