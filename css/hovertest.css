@@ -1,17 +1,24 @@
 .pics{
   width:400px;
-   height:217px;
-   background: url(http://www.corelangs.com/css/box/img/tiger.png) no-repeat;
+   height:216px;
+   background: url(../img/moto3.jpg) no-repeat center center;
    float: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+    margin-left: 10px
     }
+
 .text{
-  width: 336px;
-  height: 150px;
+  width: 300px;
+  height: 156px;
   background: #fff;
   opacity: 0;
-  margin-top: 5.5px;
-  margin-left: 3.5px;
-      }
+  margin-top: 0px;
+  margin-left: -0.5px;
+  }
+
+
 .pics:hover .text {
         opacity:0.6;
         text-align:justify;
@@ -19,20 +26,24 @@
         font-size:20px;
         font-weight:700;
         font-family:"Times New Roman", Times, serif; padding:30px;
+        width: 340px;
 }
 .pics1{
   width:400px;
-   height:217px;
-   background: url(http://www.corelangs.com/css/box/img/tiger.png) no-repeat;
+   height:216px;
+   background: url(../img/moto2.jpg) no-repeat;
    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+       margin-right: 10px
     }
 .text1{
-  width: 336px;
-  height: 150px;
+  width: 340px;
+  height: 156px;
   background: #fff;
   opacity: 0;
-  margin-top: 5.5px;
-  margin-left: 3.5px;
+  margin-top: 0px;
+  margin-left: -0.5px;
       }
 .pics1:hover .text1 {
         opacity:0.6;

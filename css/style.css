@@ -120,49 +120,42 @@ p{
 }
 
 /*              */
-.wrapper1{
-	background: transparent url(../img/moto5.jpg) no-repeat center center;
-float: left;
-margin-left: -400px
-}
+
 
 
 /*                 */
 .specific{
 	width: 100%;
 	height: 410px;
-/*	background-color: #EED1C9;*/
+	background-color: #EED1C9;
 	font-family: 'Roboto', sans-serif;
+	margin-top: 250px;
 }
 
 .specific h2{
 	color: #07BCD4;
-	margin-left: 700px;
+	margin-left: 500px;
 	font-family: 'Roboto', sans-serif;
 	padding-top: 5px;
 	position: relative;
 	top: 0px;
 }
-.specific img{
-	height: : 400px;
-	float: left;
-	margin-right: 0;
-}
+
 
 .specific h3{
-	margin-left: 700px;
+	margin-left: 500px;
 	font-family: 'Roboto', sans-serif;
 }
 .specific p{
-	margin-left : 700px;
+	margin-left : 500px;
 	font-family: 'Roboto', sans-serif;
 }
 .specific .android{
-	margin-left: 700px;
+	margin-left: 500px;
 	font-family: 'Roboto', sans-serif;
 }
 .specific .battery{
-	margin-left: 700px;
+	margin-left: 500px;
 	margin-right: 200px;
 	font-family: 'Roboto', sans-serif;
 }
@@ -220,4 +213,8 @@ input[type=text] {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+.photos .pic{
+	width: 25px;
 }
