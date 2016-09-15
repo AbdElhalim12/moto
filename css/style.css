@@ -1,0 +1,211 @@
+/* CSS Document */
+body{
+	margin: 0;
+	width: auto;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	height: 1500px;
+}
+.navbar{
+	background-color: #FFF;
+	color: #000000;
+	position: fixed;
+	width: 1200px;
+	z-index: 1;
+
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	width: 50%;
+
+}
+
+li{
+	float: left;
+	padding: 10px 0px ;
+	margin: 0px 15px 7px;
+	transition: all .3s ease-in;
+}
+
+li:hover{
+	float: left;
+	padding: 10px 0px 0px;
+	margin: 0px 15px 7px;
+	border-bottom: 3px solid #1784FF;
+	transition: all .3s ease-in;
+}
+
+input {
+	float: right;
+	margin-top: 30px;
+}
+
+.container .header{
+	height: 500px;
+	padding-top: 80px;
+
+}
+
+.social {
+	margin-top: 90px;
+	margin-right: 20px;
+	background-color: rgba(44, 44, 44, 0.5);
+	position: relative;
+	width: 168px;
+	float: right;
+	border-radius: 9px;
+	color: white;
+	height: 39px;
+}
+.social img{
+	margin-top: 5px;
+	width: 29px;
+	padding-right: 7px;
+	margin-right: 3px;
+}
+.social img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+
+.wrapper {
+	background:transparent url(https://www.motorola.com/sites/default/files/styles/hero_-_background_image_desktop_1x/public/library/storage/products/moto-360/desktop/global/moto_360_hero_d_2-3be2j3e66.jpg?itok=NG8zj33Y&amp;timestamp=1472829439) no-repeat center center;
+	height: 500px;
+}
+p{
+font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+line-height: 20px;
+}
+
+.images{
+    width: 1200px;
+    float: left;
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 20px;
+    padding-right: 0;
+
+
+}
+.images .icons{
+	display:inline-block;
+    width: 247px;
+    height: 240px;
+	margin-left: 0;
+-webkit-transition:all 0.5s ease-in-out;
+-moz-transition:all 0.5s ease-in-out;
+-o--transition:all 0.5s ease-in-out;
+-transition:all 0.5s ease-in-out;
+
+}
+
+.icons:hover img{
+-webkit-transform: scale(0.5);
+-moz-transform: scale(0.5);
+-o-transform: scale(0.5);
+transform: scale(0.5);
+ }
+
+p{
+	margin-bottom: 1px;
+}
+
+.specific{
+	width: 100%;
+	height: 512px;
+	margin-top: 270px;
+	background-color: #EED1C9;
+	font-family: 'Roboto', sans-serif;
+}
+
+.specific h2{
+	color: #07BCD4;
+	margin-left: 510px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.specific .imghvr-fade{
+	float: left;
+	width: 50%;
+
+}
+
+.specific h3{
+	margin-left: 510px;
+	font-family: 'Roboto', sans-serif;
+}
+.specific p{
+	margin-left : 510px;
+	font-family: 'Roboto', sans-serif;
+}
+.specific .android{
+	margin-left: 510px;
+	font-family: 'Roboto', sans-serif;
+}
+.specific .battery{
+	margin-left: 510px;
+	font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #000;
+	background-image: url('img/search.png');
+	    background-position: 10px 10px;
+    background-repeat: no-repeat;
+	width: 150px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
