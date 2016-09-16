@@ -1,3 +1,5 @@
+/* Start img1  */
+
 .pics{
   width:400px;
    height:216px;
@@ -28,6 +30,10 @@
         font-family:"Times New Roman", Times, serif; padding:30px;
         width: 340px;
 }
+/* End img1  */
+
+/* Start img2  */
+
 .pics1{
   width:400px;
    height:216px;
@@ -35,7 +41,7 @@
    float: left;
     margin-top: 10px;
     margin-bottom: 10px;
-       margin-right: 10px
+      margin-right: 10px
     }
 .text1{
   width: 340px;
@@ -52,4 +58,33 @@
         font-size:20px;
         font-weight:700;
         font-family:"Times New Roman", Times, serif; padding:30px;
+}
+/* End img2  */
+/* Start img3  */
+.pics3{
+  width:360px;
+   height:216px;
+   background: url(../img/moto4.jpg) no-repeat center center;
+   margin-top: -225px;
+float: left;
+    margin-left: 840px
+    }
+
+.text3{
+  width: 300px;
+  height: 156px;
+  background: #fff;
+  opacity: 0;
+  }
+
+
+.pics3:hover .text3 {
+        opacity:0.6;
+        text-align:justify;
+        color:#000;
+        font-size:20px;
+        font-weight:700;
+        font-family:"Times New Roman", Times, serif;
+        padding:30px;
+        width: 300px;
 }

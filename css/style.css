@@ -129,7 +129,7 @@ p{
 	height: 307px;
 	background-color: #EED1C9;
 	font-family: 'Roboto', sans-serif;
-	margin-top: 250px;
+
 }
 
 .specific h2{
@@ -163,6 +163,27 @@ p{
 .specific .moto5{
 	width: 500px;
 }
+.moto360 h3 {
+	text-align: center;
+	margin-top: 250px;
+	font-size: 20px;
+}
+/*   */
+/*Start Let's stay in touch   */
+.touch {
+	background-color: #00ACC7;
+	color: white;
+}
+.touch .lets{
+	margin-left: 10px;
+}
+.touch .letus{
+	margin-left: 10px;
+}
+
+
+/* End Let's stay in touch   */
+/*  Search Box     */
 input[type=text] {
     border: none;
     border-bottom: 2px solid #000;
@@ -170,7 +191,7 @@ input[type=text] {
 	    background-position: 10px 10px;
     background-repeat: no-repeat;
 	width: 150px;
-	    margin-right: 200px;
+
 }
 
 .dropbtn {
