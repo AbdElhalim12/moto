@@ -1,11 +1,11 @@
 /* CSS Document */
 body{
 	margin: 0;
-	width: auto;
+	width: 100%;
 	font-family: 'Roboto', sans-serif;
 }
 .container{
-	width: 1200px;
+	width: 100%;
 	margin: auto;
 	height: 1500px;
 }
@@ -13,7 +13,7 @@ body{
 	background-color: #FFF;
 	color: #000000;
 	position: fixed;
-	width: 1200px;
+	width: 100%;
 	z-index: 1;
 
 }
@@ -173,14 +173,27 @@ p{
 .touch {
 	background-color: #00ACC7;
 	color: white;
+	padding-bottom: 15px;
 }
 .touch .lets{
 	margin-left: 10px;
+	float: left;
+	width: 200px;
 }
 .touch .letus{
 	margin-left: 10px;
-}
 
+	width: 200px;
+}
+.touch input[type=text] {
+    border: none;
+    border-bottom: 2px solid #000;
+	background-image: url('img/search.png');
+	    background-position: 10px 10px;
+    background-repeat: no-repeat;
+	width: 150px;
+margin-top: -50px;
+}
 
 /* End Let's stay in touch   */
 /*  Search Box     */
@@ -191,7 +204,7 @@ input[type=text] {
 	    background-position: 10px 10px;
     background-repeat: no-repeat;
 	width: 150px;
-
+margin-right: 10px;
 }
 
 .dropbtn {
@@ -242,3 +255,22 @@ input[type=text] {
 .photos .pic{
 	width: 25px;
 }
+.Ambient{
+	width: 100px;
+	float: right;
+	margin-right: 40px;
+		margin-top: 23px;
+}
+
+.Ambient h3{
+	float: right;
+	margin-right: 20px;
+	width: 240px;
+	margin-top: -300px;
+}
+
+.Ambient p{
+	margin-right: 21px;
+	    width: 240px;
+	    margin-top: -266px;
+		}
