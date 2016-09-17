@@ -14,7 +14,7 @@
 .text{
   width: 300px;
   height: 156px;
-  background: #fff;
+  background: #000;
   opacity: 0;
   margin-top: 0px;
   margin-left: -0.5px;
@@ -24,7 +24,7 @@
 .pics:hover .text {
         opacity:0.6;
         text-align:justify;
-        color:#000;
+        color:#fff;
         font-size:20px;
         font-weight:700;
         font-family:"Times New Roman", Times, serif; padding:30px;
@@ -46,7 +46,7 @@
 .text1{
   width: 340px;
   height: 156px;
-  background: #fff;
+  background: #000;
   opacity: 0;
   margin-top: 0px;
   margin-left: -0.5px;
@@ -54,7 +54,7 @@
 .pics1:hover .text1 {
         opacity:0.6;
         text-align:justify;
-        color:#000000;
+        color:#fff;
         font-size:20px;
         font-weight:700;
         font-family:"Times New Roman", Times, serif; padding:30px;
@@ -73,7 +73,7 @@ float: left;
 .text3{
   width: 300px;
   height: 156px;
-  background: #fff;
+  background: #000;
   opacity: 0;
   }
 
@@ -81,7 +81,7 @@ float: left;
 .pics3:hover .text3 {
         opacity:0.6;
         text-align:justify;
-        color:#000;
+        color:#fff;
         font-size:20px;
         font-weight:700;
         font-family:"Times New Roman", Times, serif;
