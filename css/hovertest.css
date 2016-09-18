@@ -7,8 +7,8 @@
    float: left;
    margin-top: 10px;
    margin-bottom: 10px;
-   margin-right: 10px;
-    margin-left: 10px
+/*   margin-right: 10px;
+    margin-left: 10px */
     }
 
 .text{
@@ -42,7 +42,7 @@
    float: left;
     margin-top: 10px;
     margin-bottom: 10px;
-      margin-right: 10px
+    /*  margin-right: 10px */
     }
 .text1{
   width: 340px;
@@ -68,9 +68,9 @@
   width:360px;
    height:216px;
    background: url(../img/moto4.jpg) no-repeat center center;
-   margin-top: -225px;
+   margin-top: -226px;
 float: left;
-    margin-left: 840px
+    margin-left: 800px
     }
 
 .text3{
